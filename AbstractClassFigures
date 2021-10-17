@@ -1,0 +1,14 @@
+namespace CalculateAreaFigures
+{
+    /// <summary>
+    /// Абстрактный класс для представления фигуры
+    /// </summary>
+    public abstract class AbstractClassFigures
+    {
+        /// <summary>
+        /// Расчет площади
+        /// </summary>
+        /// <returns> Площадь </returns>
+        public abstract double CalculateArea();
+    }
+}
